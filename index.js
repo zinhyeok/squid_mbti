@@ -71,6 +71,40 @@ const questionList = {
     "ans3Value1":"0","ans3Value2":"0"},
 }
 
+const resultList = {
+    EFPG: {"img": "static/성기훈.jpg","name": "Test성기훈", "oneLine": "Test“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"Test타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    ETJB: {"img": "static/조성우.png","name": "조성우", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    EFJB: {"img": "static/001.jpg","name": "오일남", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    ITJG: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    ETPB: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    EFPB: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    EFJG: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    IFPG: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    ITJB: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    ITPG: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    IFJG: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    ETJG: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    IFJB: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    ETPG: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    IFPB: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+    ITPB: {"img": "static/성기훈2.jpg","name": "성기훈", "oneLine": "“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지",
+    "explain":"타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번"},
+}
 const startButton = document.querySelector("#startButton");
 const startPage = document.querySelector(".startPage");
 const questionPage = document.querySelector(".questionPage");
@@ -80,6 +114,11 @@ const question = document.querySelector("#question")
 const ans1Btn = document.querySelector("#ans1");
 const ans2Btn = document.querySelector("#ans2");
 const ans3Btn = document.querySelector("#ans3");
+const resultImg = document.querySelector("#resultImg");
+const resultName = document.querySelector("#resultName");
+const resultOneLine = document.querySelector("#resultOneLine");
+const resultExplain = document.querySelector("#resultExplain");
+
 let num = 1;
 
 function displayQuestion(e){
@@ -93,28 +132,6 @@ function displayResult(){
     resultPage.style.display ='flex';
     questionPage.style.display ='none';
     startPage.style.display='none';
-}
-
-function changeQuestion(e){
-    if (num == 11){
-        displayResult();
-    }
-    else{
-    progressbar();
-    qnum.innerHTML= questionList[num]["qnum"];
-    question.innerHTML= questionList[num]["question"];
-    ans1Btn.innerHTML=questionList[num]["ans1"];
-    ans2Btn.innerHTML=questionList[num]["ans2"];
-    ans3Btn.innerHTML=questionList[num]["ans3"];
-    ans1Btn.value1=questionList[num]["ans1Value1"];
-    ans1Btn.value2=questionList[num]["ans1Value2"];
-    ans2Btn.value1=questionList[num]["ans2Value1"];
-    ans2Btn.value2=questionList[num]["ans2Value2"];
-    ans3Btn.value1=questionList[num]["ans3Value1"];
-    ans3Btn.value2=questionList[num]["ans3Value2"];
-    countValue;
-    }
-    num++;
 }
 
 function countValue(clicked_id){
@@ -140,6 +157,51 @@ function countValue(clicked_id){
 function progressbar(){
     const progressbar = document.querySelector(".progress-bar");
     let progressStyle = progressbar.setAttribute('style',`width: calc(100/10*${num}%)`); 
+}
+
+function mbtiResult(){
+    let value1 = document.querySelector("#EI").value;
+    let value2 = document.querySelector("#FT").value;
+    let value3 = document.querySelector("#PJ").value;
+    let value4 = document.querySelector("#GB").value;
+    let mbti = "";
+    value1 >=2 ? mbti+="E" : mbti +="I";
+    value2 >=2 ? mbti+="F" : mbti +="T";
+    value3 >=2 ? mbti+="P" : mbti +="J";  
+    value4 >=2 ? mbti+="G" : mbti +="B";
+    changeAnswer(mbti); 
+}
+
+function changeAnswer(mbti){
+    console.log(mbti);
+    console.log(resultList[mbti]["img"]);    
+    resultImg.setAttribute("src",`${resultList[mbti]["img"]}`);
+    resultName.innerHTML= resultList[mbti]["name"];
+    resultOneLine.innerHTML= resultList[mbti]["oneLine"];
+    resultExplain.innerHTML= resultList[mbti]["explain"];
+}
+
+function changeQuestion(e){
+    if (num == 11){
+        displayResult();
+        mbtiResult();
+    }
+    else{
+    progressbar();
+    qnum.innerHTML= questionList[num]["qnum"];
+    question.innerHTML= questionList[num]["question"];
+    ans1Btn.innerHTML=questionList[num]["ans1"];
+    ans2Btn.innerHTML=questionList[num]["ans2"];
+    ans3Btn.innerHTML=questionList[num]["ans3"];
+    ans1Btn.value1=questionList[num]["ans1Value1"];
+    ans1Btn.value2=questionList[num]["ans1Value2"];
+    ans2Btn.value1=questionList[num]["ans2Value1"];
+    ans2Btn.value2=questionList[num]["ans2Value2"];
+    ans3Btn.value1=questionList[num]["ans3Value1"];
+    ans3Btn.value2=questionList[num]["ans3Value2"];
+    countValue;
+    }
+    num++;
 }
 
 function init(){
