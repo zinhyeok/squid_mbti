@@ -93,16 +93,14 @@ function displayResult(){
     resultPage.style.display ='flex';
     questionPage.style.display ='none';
     startPage.style.display='none';
-    console.log(resultPage.style.display)
 }
 
 function changeQuestion(e){
     if (num == 11){
-        displayResult;
-        console.log("결과창보임")
+        displayResult();
     }
     else{
-    progressbar;
+    progressbar();
     qnum.innerHTML= questionList[num]["qnum"];
     question.innerHTML= questionList[num]["question"];
     ans1Btn.innerHTML=questionList[num]["ans1"];
@@ -117,7 +115,6 @@ function changeQuestion(e){
     countValue;
     }
     num++;
-    console.log(num)
 }
 
 function countValue(clicked_id){
@@ -141,12 +138,8 @@ function countValue(clicked_id){
     }
 
 function progressbar(){
-    console.log("work");
     const progressbar = document.querySelector(".progress-bar");
-    console.log(progressbar);
-    const progressStyle = getComputedStyle(progressbar); 
-    progressStyle = `width: calc(100/10*${num}%)`;
-    
+    let progressStyle = progressbar.setAttribute('style',`width: calc(100/10*${num}%)`); 
 }
 
 function init(){
