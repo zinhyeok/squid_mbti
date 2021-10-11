@@ -1,0 +1,9 @@
+.startPage {
+  display: block;
+}
+
+.questionPage {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+}
