@@ -11,19 +11,27 @@
 </head>
 <body>
     <article class="startPage">
-    <h1>나의 오징어게임 부캐 찾기</h1>
-    <h2>"일상에서 나의 모습은?"</h2>
-    <button id="startButton" >테스트 시작하기</button>
+        <h1>나의 오징어게임 부캐 찾기</h1>
+        <h2>"회사 속 나의 모습은?"</h2> <!--맨트 수정 필요-->
+        <button id="startButton" >테스트 시작하기</button>
     </article>
 
-    <article class="questionPage">
+    <a class="questionPage">
         <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
-        <h2>문제</h2>
-        <button class="answer">답변1</button>
-        <button class="answer">답변2</button>
-        <button class="answer">답변3</button>
+        <h1 id="qnum">Q1</h1>
+        <h2 id="question">문제내용</h2>
+        <button id="ans1", value1="P", value2="0">답변1</button>
+        <button id="ans2", value1="J", value2="0">답변2</button>
+        <button id="ans3", value1="J", value2="0">답변3</button>
+
+        <section class="input">
+            <input type="hidden" id="EI" value="0">
+            <input type="hidden" id="PJ" value="0">
+            <input type="hidden" id="FT" value="0">
+            <input type="hidden" id="GB" value="0">
+        </section>
     </article>
 
     <article class="resultPage">
