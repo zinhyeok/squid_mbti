@@ -74,6 +74,7 @@ const questionList = {
 const startButton = document.querySelector("#startButton");
 const startPage = document.querySelector(".startPage");
 const questionPage = document.querySelector(".questionPage");
+const resultPage = document.querySelector(".resultPage")
 const qnum = document.querySelector("#qnum")
 const question = document.querySelector("#question")
 const ans1Btn = document.querySelector("#ans1");
@@ -81,8 +82,27 @@ const ans2Btn = document.querySelector("#ans2");
 const ans3Btn = document.querySelector("#ans3");
 let num = 1;
 
+function displayQuestion(e){
+    questionPage.style.display ='flex';
+    resultPage.style.display='none';
+    startPage.style.display='none';
+    changeQuestion();
+}
+
+function displayResult(){
+    resultPage.style.display ='flex';
+    questionPage.style.display ='none';
+    startPage.style.display='none';
+    console.log(resultPage.style.display)
+}
 
 function changeQuestion(e){
+    if (num == 11){
+        displayResult;
+        console.log("결과창보임")
+    }
+    else{
+    progressbar;
     qnum.innerHTML= questionList[num]["qnum"];
     question.innerHTML= questionList[num]["question"];
     ans1Btn.innerHTML=questionList[num]["ans1"];
@@ -95,13 +115,9 @@ function changeQuestion(e){
     ans3Btn.value1=questionList[num]["ans3Value1"];
     ans3Btn.value2=questionList[num]["ans3Value2"];
     countValue;
+    }
     num++;
-}
-
-function changeDisplay(e){
-    questionPage.style.display ='flex';
-    startPage.style.display='none';
-    changeQuestion();
+    console.log(num)
 }
 
 function countValue(clicked_id){
@@ -123,20 +139,18 @@ function countValue(clicked_id){
         document.querySelector("#GB").value = parseInt(preValue)+1;
     }
     }
-//     const clickedBtn = document.querySelector("#clicked_id");
-//     if clickedBtn.value1 == E:
-//        EI value +1  
-//     if  clickedBtn.value1 == F:
 
-//     clickedBtn.value1 == P
-
-//     clickedBtn.value2 == G:
-//      GBvlaue +1  
-
-
+function progressbar(){
+    console.log("work");
+    const progressbar = document.querySelector(".progress-bar");
+    console.log(progressbar);
+    const progressStyle = getComputedStyle(progressbar); 
+    progressStyle = `width: calc(100/10*${num}%)`;
+    
+}
 
 function init(){
-    startButton.addEventListener("click", changeDisplay);
+    startButton.addEventListener("click", displayQuestion);
     ans1Btn.addEventListener("click", changeQuestion);
     ans2Btn.addEventListener("click", changeQuestion);
     ans3Btn.addEventListener("click", changeQuestion);
