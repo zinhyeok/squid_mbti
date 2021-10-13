@@ -12,9 +12,9 @@
 <body>
     <article class="startPage col-md-7 col-sm-10 col-12 mt-5">
         <img src="/squid_game_main.png" alt="" class="main-img mb-5">
-        <h2 class="mb-5">"회사 속 나의 모습은?"</h2> <!--맨트 수정 필요-->
-        <button id="startButton" class="btn btn-large">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle"
+        <!-- <h2 class="mb-4 mt-2">"회사 속 나의 모습은?"</h2> -->
+        <button id="startButton" class="">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle"
                 viewBox="0 0 16 16">
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
             </svg>
@@ -28,7 +28,9 @@
                 <path
                     d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
             </svg>
-            테스트 시작하기</button>
+            테스트 시작하기 -->
+            <img src="./button.png" alt="">
+        </button>
     </article>
 
     <article class="questionPage col-md-7 col-sm-10 col-12 mt-5">
@@ -82,11 +84,13 @@
         </section>
     </article>
 
-    <article class="resultPage">
-        <img id="resultImg" src="static/성기훈2.jpg" alt="resultimg">
-        <h1 id=resultName>성기훈(456)</h1>
-        <h2 id="resultOneLine">“잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지</h2>
-        <h3 id="resultExplain">타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번</h3>
+    <article class="resultPage col-md-7 col-sm-10 col-12 mt-5">
+        <div class="img-container mb-4">
+            <img id="resultImg" src="static/새벽.jpeg" alt="resultimg">
+        </div>
+        <h1 id="resultName" class="mb-4">성기훈(456)</h1>
+        <h2 id="resultOneLine" class="mb-5">"잘 들어. 난 말이 아니야. 사람이야. 그래서 궁금해. 너희들이 누군지"</h2>
+        <span id="resultExplain">타인을 끌어들이고 약자를 포용할 줄 아는 인간적인 매력,  456명의 참가자 중 참가번호 456번</span>
     </article>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "font1";
+  src: url("./우체국L.ttf");
+}
+
 .startPage {
   display: flex;
+  /* display: none; */
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -13,6 +19,7 @@
 
 .resultPage {
   display: none;
+  /* display: flex; */
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -25,12 +32,16 @@ body {
 }
 .main-img {
   width: 70%;
+  margin-top: 5rem;
 }
 
 #startButton {
   background: #f7c05a;
+  color: #9b6400;
   display: flex;
   font-size: 1.3rem;
+  font-family: "font1";
+  padding: 0;
 }
 #question {
   font-size: 1.5rem;
@@ -101,4 +112,31 @@ body {
 }
 .ans-container:hover > svg {
   color: #ff3b77;
+}
+.img-container {
+  width: 70%;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+#resultOneLine {
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 1rem;
+  word-break: keep-all;
+  font-weight: 400;
+}
+#resultExplain {
+  font-size: 1.2rem;
+  font-weight: 300;
+  word-break: keep-all;
+}
+#resultName {
+  font-weight: 400;
+  font-size: 2rem;
+}
+#startButton img {
+  width: 16rem;
 }
