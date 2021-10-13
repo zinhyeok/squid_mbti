@@ -13,7 +13,6 @@ body {
 }
 .info {
   display: flex;
-  flex-direction: column;
   color: gray;
 }
 .startPage {
@@ -38,6 +37,10 @@ body {
 .main-img {
   width: 100%;
   margin-top: 5rem;
+}
+
+.ad {
+  margin-top: 3rem;
 }
 
 #startButton {
