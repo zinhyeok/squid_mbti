@@ -78,11 +78,11 @@ body {
   color: #ffffef;
   font-size: 1.2rem;
 }
-#ans1:hover,
+/* #ans1:hover,
 #ans2:hover,
 #ans3:hover {
   color: #ff3b77;
-}
+} */
 
 @media screen and (max-width: 780px) {
   html {
@@ -112,6 +112,27 @@ body {
 }
 .ans-container:hover > svg {
   color: #ff3b77;
+}
+.ans-container:hover {
+  border: 0.15rem solid #ff3b77;
+  transition: all ease 0.5s 0s;
+}
+.ans-container:hover > #ans1 {
+  color: #ff3b77;
+}
+.ans-container:hover > #ans2 {
+  color: #ff3b77;
+}
+.ans-container:hover > #ans3 {
+  color: #ff3b77;
+}
+.ans-container {
+  border: 0.15rem solid white;
+  border-radius: 20px;
+  padding: 0.5rem 1.2rem;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
 }
 .img-container {
   width: 70%;
