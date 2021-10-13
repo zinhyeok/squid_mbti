@@ -205,10 +205,10 @@ function changeQuestion(e){
     num++;
 }
 function onMouseOver() {
-    startImg.setAttribute("src", "./시작하기.png");
+    startImg.setAttribute("src", "./static/시작하기.png");
  }
 function onMouseOut() {
-    startImg.setAttribute("src", "./ㅇㅅㅁ.png");
+    startImg.setAttribute("src", "./static/ㅇㅅㅁ.png");
  }
 
 function init(){
