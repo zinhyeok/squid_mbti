@@ -151,15 +151,15 @@ body {
   height: 100%;
 }
 #resultOneLine {
-  font-size: 1.2rem;
-  border: 1px solid white;
+  font-size: 1.5rem;
+  /* border: 1px solid white; */
   border-radius: 20px;
   padding: 1rem;
   word-break: keep-all;
   font-weight: 400;
 }
 #resultExplain {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 300;
   word-break: keep-all;
 }
@@ -169,4 +169,8 @@ body {
 }
 #startButton img {
   width: 16rem;
+}
+
+.addthis_inline_share_toolbox_dsan mb-3 {
+  margin: 0.2rem;
 }
